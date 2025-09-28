@@ -6,7 +6,7 @@ public class Main {
     public static void main(String[] args) {
         //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
         // to see how IntelliJ IDEA suggests fixing it.
-        System.out.println("Hello and welcome!");
+        System.out.println("Hola!");
         Scanner scanner = new Scanner(System.in);
         System.out.println("Construye tu △");
         System.out.print("Introduce el tamaño de su lado a: ");
