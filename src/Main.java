@@ -1,11 +1,9 @@
 import java.util.Scanner;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+
 public class Main {
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
+
         System.out.println("Hola!");
         Scanner scanner = new Scanner(System.in);
         System.out.println("Construye tu △");
@@ -50,25 +48,25 @@ public class Main {
         }
         System.out.println("C");
 
-        // Body of the triangle
+
         for (int i = 2; i < height; i++) {
             for (int j = i; j < height; j++) {
                 System.out.print(" ");
             }
 
-            // Left side with b centered
+
             if (i == height / 2) {
                 System.out.print("b");
             } else {
                 System.out.print("/");
             }
 
-            // Inside
+
             for (int k = 1; k < (2*i - 3); k++) {
                 System.out.print(" ");
             }
 
-            // Right side with a centered
+
             if (i == height / 2) {
                 System.out.print("a");
             } else {
@@ -78,7 +76,7 @@ public class Main {
             System.out.println();
         }
 
-        // Base: A---c---B
+
         System.out.print("A");
         for (int i = 0; i < (2*height - 5); i++) {
             if (i == (2*height - 6) / 2) {
